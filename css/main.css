@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    height: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #8E29E5 0%, #76186B 100%);
+    text-align: center;
+}
+
+div {
+    margin: 0; 
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+p, a {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.logo-text {
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.logo {
+    margin-top: 30px;
+    height:100px;
+    margin-bottom: 0px;
+}
+
+.splash-text {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+footer {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
