@@ -3,7 +3,11 @@ body {
     height: 100vh;
     background: #8E29E5;
     background: linear-gradient(200deg, #8E29E5 0%, #76186B 100%);
+    background-color: #76186B;
     text-align: center;
+    overflow: hidden;
+    overflow-y: hidden;  
+    overflow-x: hidden;  
 }
 
 div {
