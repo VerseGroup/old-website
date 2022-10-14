@@ -5,8 +5,6 @@ body {
     background: linear-gradient(200deg, #8E29E5 0%, #76186B 100%);
     background-color: #76186B;
     text-align: center;
-    overflow: hidden;
-    overflow-y: hidden;  
     overflow-x: hidden;  
 }
 
@@ -30,6 +28,17 @@ h1 {
 h1 {
     font-size: 80px;
     margin-bottom: 10px;
+}
+
+.privacy-policy-header {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.privacy-policy {
+    font-size: 15px;
+    line-height: 1.25em;
 }
 
 a {
@@ -79,15 +88,27 @@ img {
     margin-top: 130px;
 }
 
+.privacy-box {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    width:75%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 footer {
     position: relative;
-    height: 300px;
     width: 100%;
     text-align: center;
+    bottom: 0;
+    margin-top: 10%;
+    padding-bottom: 20px;
 }
 
 .copyright {
-    position: absolute;
     bottom: 0;
     width: 100%;
     margin: 0;
